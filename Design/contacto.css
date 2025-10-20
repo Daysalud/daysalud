@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+:root {
+
+    --color-celeste:rgb(158, 197, 232);
+    --color-azul:rgb(12, 95, 178);
+    --color-azulmarino:rgb(4, 23, 39);
+    --color-azulclaro:rgba(12, 95, 178, 0.697);
+
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h3{
+    font-family: 'Questrial';
+}
+
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h4{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+
+
+.contenedor{
+    display: flex;
+    background-color: var(--color-azul);
+    
+}
+.name{
+    margin-left: 30px;
+    margin-top: 8px;
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.logo img{
+    width: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.contenedor-menu{
+    padding-left: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.menu-barra{
+    display:flex;
+    list-style: none;
+}
+
+.menu-barra li{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align:center;
+    margin-left: 15px;
+    
+}
+
+.menu-barra li a{
+    background-color:#fff;
+    display:inline-flex;
+    border-radius: 50px;
+    padding: 12px;
+    margin: 13px;
+    text-decoration: none;
+    color: var(--color-azul);
+    text-align: right;
+}
+
+.menu-barra li a:hover{
+    color:white;
+    background-color: var(--color-azulmarino);
+
+}
+
+
+
+
+.title h1{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    background-color: var(--color-azulclaro);
+    padding:30px
+}
+
+.image-title img{
+    width:100%;
+
+}
+
+.fullcontact-container{
+    background-color: var(--color-celeste);
+    display: flex;
+}
+.nurse-img{
+    background-color: white;
+    margin-left: 150px;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+
+}
+.nurse-img img{
+    width: 200px;
+}
+.contact-container{
+    background-color: white;
+    padding:80px;
+    padding-right: 300px;
+
+
+}
+.contact-container h1{
+    color:var(--color-azulmarino);
+}
+.contact-container figure{
+    color:var(--color-azulmarino)
+}
+
+
+
+.inline-celular{
+    margin: 20px;
+    display: flex;
+}
+.inline-celular h2{
+    color:var(--color-azulmarino);
+    margin: 10px;
+}
+.celular{
+    margin-right: 50px;
+}
+.celular-icon{
+    font-size: 50px;
+}
+
+#correo{
+    display: flex;
+    margin:20px;
+}
+#correo h2{
+    margin: 10px;
+    margin-left: 15px;
+}
+.correo-icon{
+    font-size: 50px;
+}
+#tiktok1{
+    display: flex;
+    margin: 20px;
+}
+.tiktok-icons{
+    color:var(--color-azulmarino);
+    font-size: 48px;
+}
+.tiktok-icons:hover{
+    color:var(--color-azul);
+}
+#tiktok1 h2{
+    margin:10px;
+    margin-left: 15px;
+}
+#instagram1{
+    display: flex;
+    margin:20px;
+}
+.insta-icons{
+    color:var(--color-azulmarino);
+    font-size: 50px;
+}
+.insta-icons:hover{
+    color:var(--color-azul);
+}
+#instagram1 h2{
+    margin:10px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color:var(--color-azul);
+    padding: 20px;
+}
+
+.footer-info{
+    display: flex;
+    align-items: center;
+}
+
+.footer-text{
+    margin-left: 290px;
+}
+.footer-text1 h2{
+    color:white;
+    text-align: center;
+}
+.footer-text h2{
+    color: white;
+    text-align: center;
+}
+.medio-pago h2{
+    color:white;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.medio-pago img{
+    width: 170px;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+.footer-icon{
+    display: flex;
+    margin-left: 300px;
+}
+#instagram{
+    font-size: 50px;
+}
+.Instagram{
+    color: white;
+}
+#tiktok{
+    font-size: 50px;
+}
+.TikTok{
+    color:white;
+    margin-left: 30px;
+}
